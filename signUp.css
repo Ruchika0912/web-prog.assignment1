@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} 
+
+.container {
+    border:rgb(50, 118, 118) 20px solid;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    height: 75%;
+    width: 28%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding-left: 40px;
+}
+
+header{
+    margin-top: 20px;
+    margin-bottom: 18px;
+    color: rgba(0, 0, 0, 0.731);
+}
+
+.description{
+    font-size: 20px;
+    color: rgb(154, 153, 153);
+    margin-bottom: 20px;
+}
+
+.input-container{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+img{
+    width: 10%;
+    border-radius: 5px 0 0 5px;
+}
+
+.custom-input{
+    width:85%;
+    border-radius: 0 5px 5px 0;
+    border-color: #f4f4f4;
+    font-size: 22px;
+}
+.custom-input::placeholder{
+    color: #aaa;
+    font-size: 18px;
+}
+.input-container input{
+    padding: 10px;
+}
+
+.checkbox input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
+    cursor: pointer;
+}
+
+.checkbox label{
+    font-size: 20px;
+    color: #868484ee;
+}
+
+.sign-up{
+    width: 40%;
+    height: 60px;
+    margin-top: 30px;
+    background-color: rgb(50, 118, 118);
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
