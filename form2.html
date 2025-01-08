@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Elements - Five Selected</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      width: 100%;
+    }
+    .container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    textarea {
+      resize: vertical;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>HTML5 Elements</h2>
+
+    <!-- Text Box -->
+    <div class="form-group">
+      <label for="text-box">Text Box:</label>
+      <input type="text" id="text-box" placeholder="Enter your name" required>
+    </div>
+
+    <!-- Radio Buttons -->
+    <div class="form-group">
+      <label>Radio Buttons:</label>
+      <input type="radio" id="radio1" name="choice" value="Option 1">
+      <label for="radio1">Option 1</label><br>
+      <input type="radio" id="radio2" name="choice" value="Option 2">
+      <label for="radio2">Option 2</label>
+    </div>
+
+    <!-- TextArea -->
+    <div class="form-group">
+      <label for="textarea">TextArea:</label>
+      <textarea id="textarea" rows="4" placeholder="Enter your comments"></textarea>
+    </div>
+
+    <!-- Selection Box -->
+    <div class="form-group">
+      <label for="select-box">Selection Box (Scrolled):</label>
+      <select id="select-box" size="3">
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+        <option value="4">Option 4</option>
+      </select>
+    </div>
+
+    <!-- Button -->
+    <div class="form-group">
+      <button type="submit">Submit</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
